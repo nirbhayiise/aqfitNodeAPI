@@ -9,8 +9,8 @@ const { json } = require("body-parser");
 var connection = mysql.createConnection({
   host     : 'localhost', //mysql database host name
   user     : 'root', //mysql database user name
-  password : '', //mysql database password
-  database : 'test' //mysql database name
+  password : 'lannet@123', //mysql database password
+  database : 'aqfitapp' //mysql database name
 });
 
 connection.connect(function(err) {
